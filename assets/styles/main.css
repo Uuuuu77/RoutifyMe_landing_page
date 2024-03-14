@@ -1,0 +1,65 @@
+/* main.css */
+
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #1a1a2e; /* Deep dark blue background */
+    color: #c0c5ce; /* Light gray text color */
+}
+
+a {
+    color: #66b2ff; /* Light blue for links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+a:hover {
+    color: #fff; /* White text color for hovered links */
+}
+
+/* Style the hero section */
+#hero {
+    background-color: #172a45; /* Dark blue header */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the features section */
+#features {
+    background-color: #0d1b2a; /* Dark blue main content background */
+    padding: 20px;
+}
+
+/* Style the testimonials section */
+#testimonials {
+    background-color: #172a45; /* Dark blue header */
+    padding: 20px;
+}
+
+/* Style the FAQ section */
+#faq {
+    background-color: #0d1b2a; /* Dark blue main content background */
+    padding: 20px;
+}
+
+/* Style the contact section */
+#contact {
+    background-color: #172a45; /* Dark blue header */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the footer section */
+footer {
+    background-color: #172a45; /* Dark blue footer */
+    color: #fff; /* White text color */
+    text-align: center;
+    padding: 10px;
+}
