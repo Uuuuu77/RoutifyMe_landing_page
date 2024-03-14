@@ -24,35 +24,36 @@ a:hover {
     color: #fff; /* White text color for hovered links */
 }
 
+/* Style the sections */
+section {
+    padding: 50px 20px; /* More padding for separation */
+    border-bottom: 1px solid #333; /* A border between sections */
+}
+
 /* Style the hero section */
 #hero {
-    background-color: #172a45; /* Dark blue header */
-    padding: 20px;
+    background-color: #1a1a2e; /* Keep the background consistent */
     text-align: center;
 }
 
 /* Style the features section */
 #features {
-    background-color: #0d1b2a; /* Dark blue main content background */
-    padding: 20px;
+    background-color: #1a1a2e; /* Keep the background consistent */
 }
 
 /* Style the testimonials section */
 #testimonials {
-    background-color: #172a45; /* Dark blue header */
-    padding: 20px;
+    background-color: #1a1a2e; /* Keep the background consistent */
 }
 
 /* Style the FAQ section */
 #faq {
-    background-color: #0d1b2a; /* Dark blue main content background */
-    padding: 20px;
+    background-color: #1a1a2e; /* Keep the background consistent */
 }
 
 /* Style the contact section */
 #contact {
-    background-color: #172a45; /* Dark blue header */
-    padding: 20px;
+    background-color: #1a1a2e; /* Keep the background consistent */
     text-align: center;
 }
 
