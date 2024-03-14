@@ -4,82 +4,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RoutifyMe Landing Page</title>
-    <!-- Link to your CSS file -->
     <link rel="stylesheet" href="assets/styles/main.css">
 </head>
 <body>
-    <!-- Hero Section -->
-    <section id="hero">
+    <header id="hero">
         <div class="hero-container">
             <h1>Welcome to RoutifyMe</h1>
             <p>Your journey starts here</p>
             <a href="#features" class="cta">Get Started</a>
         </div>
-    </section>
+    </header>
 
-    <!-- Features Section -->
-    <section id="features">
-        <h2>Key Features</h2>
-        <ul>
-            <li>Route Optimization</li>
-            <li>Interactive Map</li>
-            <li>Location Management</li>
-            <li>Form Submissions</li>
-            <li>User Location Search</li>
-            <li>Nearby Places</li>
-        </ul>
-    </section>
+    <main>
+        <section id="features">
+            <h2>Key Features</h2>
+            <div class="grid">
+                <article>
+                    <h3>Route Optimization</h3>
+                </article>
+                <article>
+                    <h3>Interactive Map</h3>
+                </article>
+                <article>
+                    <h3>Location Management</h3>
+                </article>
+                <article>
+                    <h3>Form Submissions</h3>
+                </article>
+                <article>
+                    <h3>User Location Search</h3>
+                </article>
+                <article>
+                    <h3>Nearby Places</h3>
+                </article>
+            </div>
+        </section>
 
-    <!-- How It Works Section -->
-    <section id="how-it-works">
-        <h2>How It Works</h2>
-        <p>To use RoutifyMe, log in or create a new account, navigate to the "Route Optimization" section, enter your start location and end location, along with any intermediate stops, click the "Optimize Route" button, and view your optimized route on the interactive map.</p>
-    </section>
+        <section id="how-it-works">
+            <h2>How It Works</h2>
+            <p>To use RoutifyMe, log in or create a new account, navigate to the "Route Optimization" section, enter your start location and end location, along with any intermediate stops, click the "Optimize Route" button, and view your optimized route on the interactive map.</p>
+        </section>
 
-    <!-- Testimonials Section -->
-    <section id="testimonials">
-        <h2>Testimonials</h2>
-        <div class="testimonial">
-            <p>"RoutifyMe has transformed the way we plan our delivery routes. It's saved us so much time and made our operations much more efficient!" - <strong>John Doe, ABC Logistics</strong></p>
-        </div>
-        <div class="testimonial">
-            <p>"I use RoutifyMe for planning my sales calls. It's incredibly easy to use and has helped me visit more clients in less time." - <strong>Jane Smith, XYZ Sales</strong></p>
-        </div>
-        <div class="testimonial">
-            <p>"RoutifyMe is a game-changer for our road trips. We can now easily plan our stops and optimize our route. Highly recommended!" - <strong>Mike Johnson, Road Trip Enthusiast</strong></p>
-        </div>
-    </section>
+        <section id="testimonials">
+            <h2>Testimonials</h2>
+            <div class="grid">
+                <blockquote>
+                    <p>"RoutifyMe has transformed the way we plan our delivery routes. It's saved us so much time and made our operations much more efficient!"</p>
+                    <cite>John Doe, ABC Logistics</cite>
+                </blockquote>
+                <blockquote>
+                    <p>"I use RoutifyMe for planning my sales calls. It's incredibly easy to use and has helped me visit more clients in less time."</p>
+                    <cite>Jane Smith, XYZ Sales</cite>
+                </blockquote>
+                <blockquote>
+                    <p>"RoutifyMe is a game-changer for our road trips. We can now easily plan our stops and optimize our route. Highly recommended!"</p>
+                    <cite>Mike Johnson, Road Trip Enthusiast</cite>
+                </blockquote>
+            </div>
+        </section>
 
-    <!-- FAQ Section -->
-    <section id="faq">
-        <h2>Frequently Asked Questions</h2>
-        <div class="faq-item">
-            <h3>How does RoutifyMe optimize routes?</h3>
-            <p>RoutifyMe uses advanced algorithms and Bing Maps data to calculate the most efficient route based on your start and end locations and any intermediate stops.</p>
-        </div>
-        <div class="faq-item">
-            <h3>Can I add new locations directly on the map?</h3>
-            <p>Yes, you can add new locations by clicking directly on the interactive map in the RoutifyMe app.</p>
-        </div>
-        <div class="faq-item">
-            <h3>How do I get started with RoutifyMe?</h3>
-            <p>To get started, clone the RoutifyMe repository, install the dependencies, set up and activate the virtual environment, create a .env file, run the application, and visit http://localhost:8000 in your web browser.</p>
-        </div>
-        <div class="faq-item">
-            <h3>Can I use my current location as a starting point?</h3>
-            <p>Yes, RoutifyMe supports user location search, allowing you to use your current location as a starting point for route optimization.</p>
-        </div>
-    </section>
+        <section id="faq">
+            <h2>Frequently Asked Questions</h2>
+            <dl>
+                <dt>How does RoutifyMe optimize routes?</dt>
+                <dd>RoutifyMe uses advanced algorithms and Bing Maps data to calculate the most efficient route based on your start and end locations and any intermediate stops.</dd>
+                <dt>Can I add new locations directly on the map?</dt>
+                <dd>Yes, you can add new locations by clicking directly on the interactive map in the RoutifyMe app.</dd>
+                <dt>How do I get started with RoutifyMe?</dt>
+                <dd>To get started, clone the RoutifyMe repository, install the dependencies, set up and activate the virtual environment, create a .env file, run the application, and visit http://localhost:8000 in your web browser.</dd>
+                <dt>Can I use my current location as a starting point?</dt>
+                <dd>Yes, RoutifyMe supports user location search, allowing you to use your current location as a starting point for route optimization.</dd>
+            </dl>
+        </section>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Have any questions, suggestions, or feedback? We'd love to hear from you. Feel free to <a href="mailto:johnmnjuguna89@gmail.com">contact us</a>.</p>
-    </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Have any questions, suggestions, or feedback? We'd love to hear from you. Feel free to <a href="mailto:johnmnjuguna89@gmail.com">contact us</a>.</p>
+        </section>
+    </main>
 
-    <!-- Footer Section -->
     <footer>
         <p>© 2024 RoutifyMe. All rights reserved.</p>
+        <div class="social-links">
+            <img src="assets/images/twitter.svg" alt="Twitter">
+            <img src="assets/images/linkedin.svg" alt="LinkedIn">
+        </div>
     </footer>
 </body>
 </html>
