@@ -64,3 +64,8 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
+.social-links .logo {
+    width: 30px; /* Adjust size value */
+    height: auto; /* Maintains aspect ratio */
+}
